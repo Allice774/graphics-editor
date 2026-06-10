@@ -1,0 +1,13 @@
+# Build outputs
+*.exe
+*.o
+*.obj
+*.out
+
+# IDEs and Editors
+.vscode/
+.vs/
+.idea/
+*.suo
+*.user
+*.db
