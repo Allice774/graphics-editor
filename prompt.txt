@@ -1,0 +1,20 @@
+Prompt: Design and implement a menu-driven 2D Graphics Editor in C using a 2D character array as the drawing canvas.
+Response: Generated a C program supporting line, circle, rectangle, and triangle drawing with add, modify, delete, and display operations.
+
+Prompt: What does system("cls"); do 
+Response: It's a statement that tells the operating system to run the command cls.
+
+Prompt: Bro what is this union thing doing in the code 😭
+Response: Explained that different shapes need different parameters and a union helps store them efficiently without wasting memory.
+
+Prompt: I don't get redrawAll() why can't we just draw new shapeee
+Response: Explained that the canvas is cleared and redrawn every time so deleted and modified shapes are displayed correctly.
+
+Prompt: Bro how does this drawLine function even work 💀
+Response: Explained the basic idea behind Bresenham's Line Algorithm and how it plots points between two coordinates.
+
+Prompt: If we enters letters instead of numbers wht will happen
+Response: Added input validation using fgets() and strtol() to handle invalid input safely.
+
+Prompt: Why do we have plotPixel
+Response: Explained that plotPixel() performs boundary checks before drawing and avoids repeated code.
